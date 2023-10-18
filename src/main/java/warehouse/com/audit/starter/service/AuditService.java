@@ -19,6 +19,7 @@ import org.apache.commons.beanutils.PropertyUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.reflect.FieldUtils;
 import org.apache.commons.lang3.reflect.MethodUtils;
+import org.springframework.stereotype.Service;
 import warehouse.com.audit.starter.annotation.AuditableEntity;
 import warehouse.com.audit.starter.annotation.AuditableId;
 import warehouse.com.audit.starter.annotation.AuditableName;
@@ -28,6 +29,7 @@ import warehouse.com.eventstarter.service.EventService;
 
 @RequiredArgsConstructor
 @Slf4j
+@Service
 public class AuditService {
 
   private final EventService eventService;

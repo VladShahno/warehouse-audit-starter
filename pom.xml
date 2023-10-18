@@ -77,8 +77,8 @@
       <version>${event.starter.version}</version>
     </dependency>
     <dependency>
-      <artifactId>warehouse-rest-starter</artifactId>
       <groupId>warehouse.com</groupId>
+      <artifactId>warehouse-rest-starter</artifactId>
       <version>${rest.starter.version}</version>
     </dependency>
     <dependency>
